@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="534.0" prefWidth="993.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.employeePage.SalaryRecEmployeePageController">
+   <children>
+      <AnchorPane prefHeight="534.0" prefWidth="993.0" style="-fx-background-color: #424242; -fx-background-radius: 25; -fx-border-color: #18ffff; -fx-border-radius: 25; -fx-border-width: 5;">
+         <children>
+            <Line endX="485.0" layoutX="490.0" layoutY="59.0" startX="-469.0" stroke="#18ffff" strokeWidth="2.0" />
+            <Line endX="-135.0" endY="215.0" layoutX="632.0" layoutY="231.0" startX="-135.0" startY="-154.0" stroke="#18ffff" strokeWidth="2.0" />
+            <TableView fx:id="tableKusurat" layoutX="19.0" layoutY="75.0" prefHeight="372.0" prefWidth="465.0" style="-fx-background-color: #18ffff;">
+              <columns>
+                <TableColumn prefWidth="233.0" text="مبلغ" />
+                  <TableColumn prefWidth="239.0" text="کسورات" />
+              </columns>
+            </TableView>
+            <TableView fx:id="tableMazaya" layoutX="512.0" layoutY="76.0" prefHeight="372.0" prefWidth="465.0" style="-fx-background-color: #18ffff;">
+               <columns>
+                  <TableColumn prefWidth="233.0" text="مبلغ" />
+                  <TableColumn fx:id="col_salary" prefWidth="239.0" text="حقوق و مزایا" />
+               </columns>
+            </TableView>
+            <Label alignment="CENTER" layoutX="421.0" layoutY="23.0" prefHeight="21.0" prefWidth="155.0" text="صورتحساب حقوق" textFill="#18ffff">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="902.0" layoutY="23.0" prefHeight="23.0" prefWidth="67.0" text="استان" textFill="#18ffff">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="711.0" layoutY="23.0" prefHeight="23.0" prefWidth="67.0" text="شهر" textFill="#18ffff">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="800.0" layoutY="23.0" prefHeight="23.0" prefWidth="96.0" text="12345" textFill="#18ffff">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="593.0" layoutY="23.0" prefHeight="23.0" prefWidth="96.0" text="12345" textFill="#18ffff">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="120.0" layoutY="23.0" prefHeight="23.0" prefWidth="81.0" text="12345" textFill="#18ffff">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="236.0" layoutY="23.0" prefHeight="23.0" prefWidth="81.0" text="تاریخ" textFill="#18ffff">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Label>
+            <Line endX="460.0" layoutX="513.0" layoutY="463.0" startX="-490.0" stroke="#18ffff" strokeWidth="2.0" />
+            <Label alignment="CENTER" layoutX="805.0" layoutY="483.0" prefHeight="23.0" prefWidth="164.0" text="به موجب این فیش مبلغ" textFill="#18ffff">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="526.0" layoutY="483.0" prefHeight="23.0" prefWidth="252.0" text="12345" textFill="#18ffff">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="357.0" layoutY="483.0" prefHeight="23.0" prefWidth="155.0" text="ریال به حساب آقا/خانم" textFill="#18ffff">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="141.0" layoutY="483.0" prefHeight="23.0" prefWidth="190.0" text="12345" textFill="#18ffff">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="22.0" layoutY="483.0" prefHeight="23.0" prefWidth="81.0" text="واریز شد." textFill="#18ffff">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

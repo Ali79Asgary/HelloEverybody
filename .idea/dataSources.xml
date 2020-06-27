@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="svopir_temp" uuid="cb89aa03-080d-4b13-9510-a792de7ad091">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://171.22.26.136:3306/svopir_temp</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="svopir_data@171.22.26.136" uuid="c91f580e-e3c5-405d-9789-9a575ebe9705">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://171.22.26.136:3306/svopir_data</jdbc-url>
+    </data-source>
+  </component>
+</project>
